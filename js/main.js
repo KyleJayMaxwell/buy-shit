@@ -21,47 +21,36 @@ $("form").bind("submit", validate);
 
 
 //start Tommy's JS
-
-function wood() {
-
-}
-function digital() {
-//     $("button").click(function(){
-//     $("#digital").toggle();
-// });
-}
-function metal() {
-//     $("button").click(function(){
-//     $("#metal").toggle();
-
-// });
-  }
-
-function analog() {
-//     $("button").click(function(){
-//     $("#analog").toggle();
-// });
-}
+   $(".allBtn").click(function(){
+      $(".metal").show();
+      $(".wood").show();
+      $(".analog").show();
+      $(".digital").show();
+      
+});
 
     $(".woodBtn").click(function(){
       $(".metal").hide();
-      // $("#wood").show();
-      console.log("test");
+      $(".wood").show();
+      
 });
      
      $(".metalBtn").click(function(){
       $(".wood").hide();
-      console.log("test");
+      $(".metal").show();
+      
 }); 
 
      $(".analogBtn").click(function(){
       $(".digital").hide();
-      console.log("test");
+      $(".analog").show();
+      
 }); 
 
 $(".digitalBtn").click(function(){
       $(".analog").hide();
-      console.log("test");
+      $(".digital").show();
+      
 });
 //end Tommy's JS
 
