@@ -6,17 +6,17 @@ $("document").ready(function (e){
   });
 
 
-$(".woodBtn").click(function(){
-        $(".metal").fadeOut("slow");
-        $(".wood").show();
+// $(".woodBtn").click(function(){
+//         $(".metal").fadeOut("slow");
+//         $(".wood").show();
       
-});
+// });
      
-$(".metalBtn").click(function(){
-        $(".wood").fadeOut("slow");
-        $(".metal").show();
+// $(".metalBtn").click(function(){
+//         $(".wood").fadeOut("slow");
+//         $(".metal").show();
       
-}); 
+// }); 
 
 $(".analogBtn").click(function(){
         $(".digital").fadeOut("slow");
