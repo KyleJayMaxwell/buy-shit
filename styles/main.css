@@ -160,3 +160,9 @@ img {
     color: red;
     cursor: pointer;
 }
+
+.line {
+    height: 2px;
+    background: #000;
+    margin-top: 20px;;
+}
